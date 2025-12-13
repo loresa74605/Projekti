@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial;
-    background-color: #FAFAFA;
+    background: #ffffff;
 }
 .nav h2{
     color: black;
@@ -26,11 +26,12 @@ body{
     color: black;
     font-size: 14px;
     padding-right: 5px;
+    text-decoration: none;
 }
 .slidercontainer{
     width: 100%;
     height: 250px;
-    margin: 20px auto;
+    margin: 40px auto;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -40,7 +41,7 @@ body{
 .slider{
     display: flex;
     height: 100%;
-    transition: tarnsform 0.8s ease;
+    transition: transform 0.8s ease;
 }
 .slide{
     min-width: 100%;
@@ -106,15 +107,18 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 30px auto;
+    margin: 50px auto 20px;
 }
 .welcomebox{
+    width: 100%;
+    background: transparent;
     background: white;
-    border-radius: 10px;
-    padding: 30px;
-    max-width: 600px;
+    border-radius: 0;
+    padding: 0;
+    max-width: 800px;
     text-align: center;
-    box-shadow:  0 0 10px 5px rgba(0,0,0,0.25);
+    box-shadow: none;
+    
 }
 .welcome h2{
     margin-top: 0;
@@ -123,10 +127,11 @@ body{
 .welcome p{
     text-align: center;
     max-width: 500px;
-margin: 0 auto;
+    margin: 0 auto;
 }
 .featured{
-    padding: 40px 20px;
+    padding: 20px 20px;
+    margin-top: 10px;
     text-align: center;
 }
 .featured h2{
@@ -159,34 +164,21 @@ margin: 0 auto;
     padding: 10px;
     font-size: 18px;
 }
-.slidercontainer{
-    background: linear-gradient(to bottom, #ffd8d8, #fff);
-}
- .explore-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding: 10px 20px;
+.explorebtn{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 24px;
     background: #FF9BAA;
     color: white;
     border-radius: 8px;
-    margin-top: 10px;
-    margin-left: 600px;
-    margin-right: 600px;
     text-decoration: none;
     transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1)
 }
-.explore-btn:hover{
+.explorebtn:hover{
     background: #ff7a8f;
-}
-body{
-    background: #FFF5F5;
-}
-.nav{
-    background: #FFC7C7;
-}
-.explore-btn{
-    background: #FF8F9F;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1)
 }
 .footer{
     background: #FFD8D8;
@@ -194,34 +186,4 @@ body{
     text-align: center;
     margin-top: 40px;
     color: #333;
-}*/
-body{
-    margin: 0;
-    font-family: Arial;
-    background-color: #FAFAFA;
 }
-.nav h2{
-    color: black;
-    font-size: 25px;
-    padding-left: 5px;
-}
-.nav{
-    padding: 6px 10px;
-    background: #f6f2f2;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav ul{
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    font-size: 25px;
-}
-.nav a{
-    color: black;
-    font-size: 14px;
-    padding-right: 5px;
-}
-
