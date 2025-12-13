@@ -28,3 +28,31 @@ body{
     padding-right: 5px;
     text-decoration: none;
 }
+.searchbar{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffd8d8;
+    border-radius: 25px;
+    color: white;
+}
+.imgsrch{
+    width: 25px;
+    height: auto;
+    margin-left: 15px;
+}
+.searchbar p{
+    padding-left: 5px;
+}
+#searchInput{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding: 10px;
+}
