@@ -79,3 +79,29 @@ body{
 .cooks p{
     font-size: larger;
 }
+@media(max-width:768px){
+    .nav{
+        padding: 4px 8px;
+    }
+    .nav ul{
+        gap: 10px;
+    }
+    .searchbar{
+        margin: 10px;
+    }
+    .card{
+        flex: 1 1 48%;
+    }
+    .cookingimg{
+        height: 250px;
+        max-width: 100%;
+    }
+}
+@media(max-width:480px){
+    .card{
+        flex: 1 1 100%;
+    }
+    #searchInput{
+        font-size: 14px;
+    }
+}
