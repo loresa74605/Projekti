@@ -67,30 +67,35 @@ body{
     right: 10px;
 }
 @media(max-width: 768px){
+    .nav{
+        flex-direction: row;
+        padding: 6px 10px;
+    }
     .nav ul{
-        gap: 15px;
+        flex-direction: row;
+        gap: 10px;
+        margin: 0;
     }
     .nav a{
-        font-size: 15px;
-    }
-    .slidercontainer{
-        height: 280px;
-    }
-    .prev, .next{
-        font-size: 20px;
-        padding: 8px 14px;
+        font-size: 14px;
     }
 }
 @media(max-width: 480px){
     .nav{
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4px 8px;
     }
     .nav ul{
-        flex-direction: column;
+        flex-direction: row;
         gap: 8px;
         padding: 0;
+    }
+    .nav a{
+        font-size: 13px;
+    }
+    .nav h2{
+        font-size: 14px;
     }
     .slidercontainer{
         height: 220px;
@@ -176,14 +181,44 @@ body{
     transition: 0.3s;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1)
 }
-.explorebtn:hover{
-    background: #ff7a8f;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1)
-}
 .footer{
     background: #FFD8D8;
     padding: 15px;
     text-align: center;
     margin-top: 40px;
     color: #333;
+}
+#kontenti{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#slideshow{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.nextbtn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    background: rgba(255,155, 170, 0.8);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.nextbtn img{
+    width: 45px;
+    height: 45px;
 }

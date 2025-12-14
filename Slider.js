@@ -1,17 +1,10 @@
-let index = 0;
-const slider=document.getElementById("slider");
-const slides=document.querySelectorAll(".slide");
-
-function showSlide(i){
-    index = (i+slides.length)%slides.length;
-    slider.style.transform=`translateX(${-index*100}%)`
+var i=0;
+var imgArray = [
+    "cupcakes.jpg",
+    "bluess.jpg",
+    "papaya.jpg"
+];
+function ndrroImg(){
+    document.getElementById('slideshow').src=imgArray[i];
+    i=(i+1)%imgArray.length
 }
-function nextSlide(){
-    showSlide(index + 1);
-}
-function prevSlide(){
-    showSlide(index - 1);
-}
-setInterval(()=>{
-    nextSlide();
-},10000)

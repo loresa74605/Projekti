@@ -6,7 +6,7 @@
     <title>Slider</title>
     <link rel="stylesheet" href="Slider.css">
 </head>
-<body>
+<body onload="ndrroImg()">
     <header>
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
@@ -20,14 +20,9 @@
         </ul>
         </nav>
     </header>
-    <div class="slidercontainer">
-        <div class="slider" id="slider">
-            <img src="cupcakes.jpg" alt="cupcake" class="slide">
-            <img src="bluess.jpg" alt="pancake" class="slide">
-            <img src="papaya.jpg" alt="papaya" class="slide">
-        </div>
-        <button class="prev" onclick="prevSlide()">❮</button>
-        <button class="next" onclick="nextSlide()">❯</button>
+    <div id="kontenti">
+        <img id="slideshow" src="" alt="">
+        <button onclick="ndrroImg()" class="nextbtn"><img src="rightarrow.png" alt=""></a></button>
     </div>
     <div class="welcome">
         <div class="welcomebox">
