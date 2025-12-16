@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: #ffffff;
+}
+.nav h2{
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: 'Dancing Script';
+}
+.nav{
+    padding: 6px 10px;
+    background: #ffd8d8;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav a{
+    color: black;
+    font-size: 14px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.searchbar{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffd8d8;
+    border-radius: 25px;
+    color: white;
+}
+.imgsrch{
+    width: 25px;
+    height: auto;
+    margin-left: 15px;
+}
+.searchbar p{
+    padding-left: 5px;
+}
+#searchInput{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding: 10px;
+}
+.cooks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px;
+}
+.card{
+    flex: 1 1 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.cookingimg{
+    height: 330px;
+    width: auto;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.cooks p{
+    font-size: larger;
+}
+@media(max-width:768px){
+    .nav{
+        padding: 4px 8px;
+    }
+    .nav ul{
+        gap: 10px;
+    }
+    .searchbar{
+        margin: 10px;
+    }
+    .card{
+        flex: 1 1 48%;
+    }
+    .cookingimg{
+        height: 250px;
+        max-width: 100%;
+    }
+}
+@media(max-width:480px){
+    .card{
+        flex: 1 1 100%;
+    }
+    #searchInput{
+        font-size: 14px;
+    }
+}
