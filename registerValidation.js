@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function(){
             confirmPassword.focus();
             return false;
         }
-        alert("Registration successful!");
-        form.submit();
+        
+        window.location.href = "Slider.html";
     });
     function emailValid(email){
         const emailRegex = /^([A-Za-z0-9_\-.])+@([A-Za-z0-9_\.])+\.([A-Za-z]{2,4})$/;
