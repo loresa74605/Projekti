@@ -1,5 +1,7 @@
 body{
-    background-image: url(cooking.png);
+    margin: 0;
+    font-family: Arial;
+    background-image: url(back.jpg);
 }
 .Loginbox{
     background-color: #FFD8D8;
