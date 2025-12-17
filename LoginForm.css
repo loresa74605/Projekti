@@ -17,6 +17,12 @@ body{
     box-sizing:border-box;
     box-shadow: 0 0 15px rgba(0,0,0,0.3)
 }
+.Loginbox .p1{
+    padding-left: 77px;
+}
+.Loginbox .p2{
+    padding-left: 60px;
+}
 input{
     width:  350px;
     height: 25px;
