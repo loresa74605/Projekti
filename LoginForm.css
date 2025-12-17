@@ -19,21 +19,23 @@ body{
 }
 input{
     width:  350px;
-    height: 30px;
+    height: 25px;
     border-radius: 17px;
     background-color: #F7F1E7;
     padding: 5px;
 }
 .cooking, .cookingicon {
     display: block;
-    margin: 0 auto 15px auto;
-    max-width: 100px;
+    margin: 0 auto 20px auto;
+    max-width: 45%;
     height: auto;
+    width: 90px;
 }
+
 button{
     width: 100px;
-    height: 40px;
-    border-radius: 17px;
+    height: 30px;
+    border-radius: 20px;
     background-color: #F7F1E7;
     margin-left: 133px;
 }
@@ -59,11 +61,17 @@ button{
         margin: 0 auto;
         display: block;
     }
+    .cooking{
+        width: 150px;
+    }
 }
 @media(max-width: 480px){
     .Loginbox{
         width: 92%;
         margin-top: 25px;
         padding: 15px;
+    }
+    .cooking{
+        width: 120px;
     }
 }
