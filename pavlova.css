@@ -37,6 +37,11 @@ p{
     max-width: 800px;
     margin: 15px auto;
 }
+img{
+    display: block;
+    margin: 20px auto;
+}
+
 h1,h2,h3{
     text-align: center;
     color: rgb(51, 51, 118)

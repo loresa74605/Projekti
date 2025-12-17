@@ -11,16 +11,17 @@
     <form action="" method="POST">
     <img src="whisker.png" class="cooking" >
     <br><br>
-    <input type="text" name="userame" placeholder="Username" id="username">
+    <input type="text" name="username" placeholder="Username" id="username" minlength="3" maxlength="20">
     <br><br>
-    <input type="password" name="password" placeholder="Password" id="password">
+    <input type="password" name="password" placeholder="Password" id="password" minlength="8" maxlength="20">
     <br><br>
     <button type="submit">Login</button>
-    <p>Don't you have an account?
+    <p class="p1">Don't you have an account?
     <br>
-    <a href="RegisterForm.html">Register now</a>
+    <a href="RegisterForm.html" class="p2">Register now</a>
     </p>
     </form>
     </div>
+    <script src="loginValidation.js"></script>
 </body>
 </html>
