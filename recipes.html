@@ -4,81 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>Document</title>
 </head>
 <body>
     <header>
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+
+      
         <nav class="nav">
             <h2>TinyBites</h2>
             <ul>
-                <li><a href="slider.html"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="recipes.html"><i class="fas fa-home"></i>Recipes</a></li>
-                <li><a href="aboutus.html"><i class="fas fa-home"></i>About Us</a></li>
-                <li><a href="contact.html"><i class="fas fa-home"></i>Contact</a></li>
-            </ul>
+                
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>   
         </nav>
     </header>
-    <div class="searchbar">
+    <div class="searchbar" id="searchBar">
         <img src="searchh.png" alt="" class="imgsrch">
         <input type="text" id="searchInput" placeholder="What are you craving?" onkeyup="searchRecipes()">
     </div>
     <div class="cooks">
         <div class="card">
-            <a href="pavlova.html">
-                <img src="pavlova.png" alt="" class="cookingimg">
-            </a>
-            <p>Pavlova Bombs</p>
-        </div>
+    <a href="pavlova.html">
+        <img src="pavlova.png" alt="" class="cookingimg">
+    </a>
+    <div class="card-title">
+        <p>Pavlova Bombs</p>
+        <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+    </div>
+</div>
         <div class="card">
             <a href="pancakes.html">
                 <img src="pancakes.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Fruity Pancakes</p>
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="cakes.html">
                 <img src="cakes.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Rocky Road</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="choc.html">
                 <img src="choc.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Black Forest Cake</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="frosting.html">
                 <img src="frosting.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Frosting Cupcakes</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="cupchoc.html">
                 <img src="cupchoc.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Vanilla filled chocolate cupcakes</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="cremebrule.html">
                 <img src="cremebrule.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Creme Brulee</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="puddingpots.html">
                 <img src="puddingpots.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Pudding Pots</p>
+            
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
         <div class="card">
             <a href="pannacotta.html">
                 <img src="pannacotta.png" alt="" class="cookingimg">
             </a>
+            <div class="card-title">
             <p>Panna Cotta</p>
+    <button class="favorite-btn" onclick="toggleFavorite(this)">🤍</button>
+            </div>
         </div>
     </div>
+    <!--<div class="floating-bar">
+    <button class="favorite-btn-floating" onclick="openFavorites()"><a href="favorites.html">
+    <img src="favorite.png" alt="Favorites" width="28" height="28">
+</a>
+</button>
+    <button id="addRecipeBtn" onclick="showAddRecipeForm()"><img src="add.png" alt="" width="28" height="28"></button>
+    <button class="account-btn" onclick="openAccount()">
+        <img src="chefs.png" alt="" width="28" height="28" margin-left="10">
+    </button>
+</div>-->
+<div class="bottom-nav">
+
+<a href="slider.html">
+<i class="fa-solid fa-house"></i>
+</a>
+
+<button onclick="toggleSearch()" class="nav-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</button>
+
+<a href="addRecipe.html" class="add-btn">
+    <i class="fa-solid fa-plus"></i>
+</a>
+<a href="favorites.html">
+<i class="fa-solid fa-heart"></i>
+
+</a>
+
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+
+</a>
+
+</div>
     <script src="recipes.js"></script>
 </body>
 </html>

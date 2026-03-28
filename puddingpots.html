@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="puddingpots.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>Pudding Pots</title>
 </head>
 <body>
@@ -11,12 +13,12 @@
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <nav class="nav">
             <h2>TinyBites</h2>
-            <ul>
-                <li><a href="slider.html"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="recipes.html"><i class="fas fa-home"></i>Recipes</a></li>
-                <li><a href="aboutus.html"><i class="fas fa-home"></i>About Us</a></li>
-                <li><a href="contact.html"><i class="fas fa-home"></i>Contact</a></li>
-            </ul>
+           <ul>
+
+    <li><a href="recipes.html">Recipes</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
         </nav>
     </header>
     <h1>Pudding Pots</h1>
@@ -41,5 +43,27 @@
 <p>Decorate with a little (or a lot!) of whipped cream and a sprinkle of chopped chocolate.</p>
 <img src="pcho.png" alt="pcho" class="pcho">
     <h3>bon appétit!</h3>
+    <div class="bottom-nav">
+
+<a href="slider.html">
+<i class="fa-solid fa-house"></i>
+</a>
+
+<button onclick="toggleSearch()" class="nav-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</button>
+
+<button onclick="showAddRecipeForm()" class="add-btn">
+<i class="fa-solid fa-plus"></i>
+</button>
+
+<a href="favorites.html">
+<i class="fa-solid fa-heart"></i>
+</a>
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+</a>
+</div>
+<script src="puddingpots.js"></script>
 </body>
 </html>   

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe | TinyBites</title>
+    <link rel="stylesheet" href="addRecipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="nav">
+        <h2>TinyBites</h2>
+        <ul>
+           
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="searchbar" id="searchBar">
+    <img src="searchh.png" alt="" class="imgsrch">
+    <input type="text" id="searchInput" placeholder="Search recipes...">
+</div>
+<section class="contact-page">
+    <div class="contact-wrapper">
+
+        <div class="contact-left">
+            <h1>Add a New Recipe</h1>
+            <p class="subtitle">
+                Fill in the details below to add your delicious recipe. 
+                Include a photo, title, and description for best results!
+            </p>
+        </div>
+
+        <div class="contact-right">
+            <div class="contact-card">
+                <h3>Recipe Form</h3>
+                <form id="addRecipeForm" method="POST" action="addRecipe.php">
+                    <label for="title">Recipe Title</label>
+                    <input type="text" id="title" name="title" placeholder="Chocolate Cake" required>
+
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Write a short description..." required></textarea>
+
+                    <label for="image">Upload Image</label>
+                    <input type="file" id="image" name="image" accept="image/*">
+
+                    <button type="submit" class="submit-btn">Add Recipe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="bottom-nav">
+
+<a href="slider.html">
+<i class="fa-solid fa-house"></i>
+</a>
+
+<button onclick="toggleSearch()" class="nav-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</button>
+
+<a href="addRecipe.html" class="add-btn">
+<i class="fa-solid fa-plus"></i>
+</a>
+
+<a href="favorites.html">
+<i class="fa-solid fa-heart"></i>
+</a>
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+</a>
+</div>
+<script src="addRecipe.js"></script>
+
+</body>
+</html>

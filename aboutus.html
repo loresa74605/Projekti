@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>About Us</title>
 </head>
 <body>
@@ -13,13 +15,17 @@
         <nav class="nav">
         <h2>TinyBites</h2>
         <ul>
-            <li><a href="slider.html"><i class="fas fa-home"></i>Home</a></li>
-            <li><a href="recipes.html"><i class="fas fa-home"></i>Recipes</a></li>
-            <li><a href="aboutus.html"><i class="fas fa-home"></i>About Us</a></li>
-            <li><a href="contact.html"><i class="fas fa-home"></i>Contact</a></li>
+
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         </nav>
     </header>
+      <div class="searchbar" id="searchBar">
+        <img src="searchh.png" alt="" class="imgsrch">
+        <input type="text" id="searchInput" placeholder="What are you craving?" onkeyup="searchRecipes()">
+    </div>
   <p id="paragraf"><b>TinyBites</b> is a dessert-focused platform created for everyone who loves baking, experimenting with sweets, and sharing delightful dessert recipes. Whether you enjoy classic cakes, homemade cookies, creamy desserts, or creative sweet treats, TinyBites is your digital space to collect, organize, and celebrate everything sweet.
 Our platform allows users to create an account, add their own dessert recipes, and build a personal collection tailored to their taste. You can save favorite recipes, revisit them anytime, and manage your content easily in one secure and user-friendly environment. Each recipe belongs to the user who created it, making TinyBites a truly personal baking companion.
 At TinyBites, we believe desserts are more than just food — they are expressions of creativity, comfort, and happiness. From baking for loved ones to treating yourself after a long day, desserts hold special moments and memories. That's why we focus on simplicity, clean design, and smooth functionality, so you can spend less time navigating and more time enjoying the baking process.
@@ -39,8 +45,27 @@ Loresa is a creative dessert enthusiast known for experimenting with modern swee
 <p><b>Chef Minavere Berisha</b><br>
 Minavere brings warmth and creativity to TinyBites with her love for quick and easy desserts. <br> She focuses on recipes that are perfect for everyday moments, requiring minimal ingredients and time. <br> Minavere believes that sweet moments don't have to be complicated.
 </p>
-<footer class="footer">
-    <p>© 2025 TinyBites. All rights reserved.</p>
-</footer>
+<div class="bottom-nav">
+
+<a href="slider.html">
+<i class="fa-solid fa-house"></i>
+</a>
+
+<button onclick="toggleSearch()" class="nav-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</button>
+
+<a href="addRecipe.html" class="add-btn">
+    <i class="fa-solid fa-plus"></i>
+</a>
+
+<a href="favorites.html">
+<i class="fa-solid fa-heart"></i>
+</a>
+<a href="profile.html">
+<i class="fa-solid fa-user"></i>
+</a>
+</div>
+<script src="aboutus.js"></script>
 </body>
 </html>

@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: Arial;
     background-color: #ffffff;
+
+
+padding-bottom:80px;
+
 }
 .nav h2{
     color: black;
@@ -33,7 +37,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-start;
     background-color: #ffd8d8;
@@ -104,4 +108,205 @@ body{
     #searchInput{
         font-size: 14px;
     }
+}
+
+/*.favorite-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}*/
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.favorite-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+ 
+
+.favorite-btn:hover {
+    transform: scale(1.2);
+}
+
+.favorite-btn.favorited {
+    color: red; 
+}
+
+
+.admin-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+
+/*#addRecipeBtn {
+    position: fixed;       
+    bottom: 20px;         
+    right: 20px;           
+    padding: 15px;
+    border-radius: 50%;   
+    background-color: #ffd8d8;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 9999;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6b6b;       
+}
+*/
+.floating-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;            
+    height: 40px;           
+    background-color: #ffd8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    gap: 50px;
+}
+
+.favorite-btn-floating,
+#addRecipeBtn,
+.account-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#addRecipeBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.account-btn i {
+    color: #333;
+}
+.floating-bar button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.floating-bar button img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.bottom-nav{
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 65px;
+background: #ffd8d8;
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+z-index: 9999;
+}
+
+.bottom-nav a{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+color: black;
+font-size: 12px;
+}
+
+.bottom-nav i{
+font-size: 20px;
+margin-bottom: 3px;
+}
+
+.add-btn{
+
+color: black;
+border: none;
+width: 50px;
+height: 50px;
+
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+cursor: pointer;
+}
+.bottom-nav{
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 45px;
+background: #ffd8d8;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+z-index: 9999;
+}
+
+.nav-btn{
+background: none;
+border: none;
+cursor: pointer;
+color: black;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.bottom-nav button{
+background: none;
+border: none;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.bottom-nav i{
+font-size:18px;
+}
+
+#searchBar{
+display:none;
 }
