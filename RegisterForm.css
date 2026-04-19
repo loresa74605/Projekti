@@ -17,7 +17,10 @@ body{
     box-sizing: border-box;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
-.register-box p{
+.register-box .p1{
+    padding-left: 77px;
+}
+.register-box .p2{
     padding-left: 60px;
 }
 input{
