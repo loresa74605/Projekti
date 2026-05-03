@@ -1,0 +1,95 @@
+[2026-04-19 18:00:03] Visit to RegisterForm.php | Method: GET
+[2026-04-19 18:00:14] Visit to RegisterForm.php | Method: POST
+[2026-04-19 18:00:14] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => lionel
+    [1] => loresademiri2@gmail.com
+    [2] => HASHED_PWD
+    [3] => Loresa
+    [4] => Demiri
+)
+
+[2026-04-19 18:01:13] Visit to RegisterForm.php | Method: POST
+[2026-04-19 18:01:13] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => altiniiii
+    [1] => altinmoorina@gmail.com
+    [2] => HASHED_PWD
+    [3] => altin
+    [4] => morina
+)
+
+[2026-04-19 19:17:57] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:18:34] Visit to RegisterForm.php | Method: POST
+[2026-04-19 19:18:35] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => lorilori
+    [1] => loresademiri2@gmail.com
+    [2] => HASHED_PWD
+    [3] => loresa
+    [4] => demiri
+)
+
+[2026-04-19 19:18:55] Visit to RegisterForm.php | Method: POST
+[2026-04-19 19:18:55] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => lorilori
+    [1] => loresademiri2@gmail.com
+    [2] => HASHED_PWD
+    [3] => loresa
+    [4] => demiri
+)
+
+[2026-04-19 19:22:27] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:29] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:29] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:29] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:29] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:29] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:30] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:30] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:30] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:30] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:22:54] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:01] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:02] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:02] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:02] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:02] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:23:02] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:27:03] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:53:20] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:53:37] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:53:40] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:55:13] Visit to RegisterForm.php | Method: GET
+[2026-04-19 19:55:39] Visit to RegisterForm.php | Method: POST
+[2026-04-19 19:55:39] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => lesa
+    [1] => loresademiri2@gmail.com
+    [2] => HASHED_PWD
+    [3] => lori
+    [4] => lorii
+)
+
+[2026-04-19 20:04:57] Visit to login.php | Method: POST
+[2026-04-19 20:05:06] Visit to RegisterForm.php | Method: GET
+[2026-04-19 20:05:27] Visit to login.php | Method: POST
+[2026-04-19 20:19:46] Visit to login.php | Method: POST
+[2026-04-22 23:00:43] Visit to RegisterForm.php | Method: GET
+[2026-04-22 23:01:56] Visit to RegisterForm.php | Method: POST
+[2026-04-22 23:01:56] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => lesi
+    [1] => loresademiri2@gmail.com
+    [2] => HASHED_PWD
+    [3] => lesi
+    [4] => lesi
+)
+
