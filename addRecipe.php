@@ -12,7 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $desc = $_POST['description'] ?? '';
     $user_id = $_SESSION['user_id'];
 
-    // handle image upload
     $image = $_FILES['image']['name'] ?? '';
     $tmp_name = $_FILES['image']['tmp_name'] ?? '';
     

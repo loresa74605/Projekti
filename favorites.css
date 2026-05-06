@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 16px;
+    background: #f5d5dc;
+}
+
+.nav h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+}
+
+.favorites-page {
+    max-width: 800px;
+    margin: 40px auto 110px;
+    padding: 24px;
+}
+
+.favorites-card {
+    background: #fff;
+    border: 1px solid #f4c1d0;
+    border-radius: 16px;
+    padding: 22px;
+}
+
+h1 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #f28cab;
+    font-size: 38px;
+}
+
+.subtitle {
+    margin: 0 0 18px;
+    text-align: center;
+    color: #555;
+    font-size: 17px;
+}
+
+.favorites-list {
+    margin: 0;
+    padding: 0;
+}
+
+.favorites-list li {
+    list-style: none;
+    margin-bottom: 12px;
+    padding: 14px 16px;
+    background: #ffffff;
+    border: 1px solid #f7bfd0;
+    border-radius: 12px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.favorite-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #f7bfd0;
+}
+
+.favorite-content {
+    flex: 1;
+}
+
+.favorite-title {
+    font-weight: 600;
+}
+
+.remove-btn {
+    border: none;
+    background: #f28cab;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background: #e6789a;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f5d5dc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.bottom-nav a {
+    color: #111;
+    font-size: 28px;
+    text-decoration: none;
+}

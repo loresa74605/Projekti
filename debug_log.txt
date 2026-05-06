@@ -93,3 +93,36 @@ Params: Array
     [4] => lesi
 )
 
+[2026-05-06 21:23:59] Visit to login.php | Method: POST
+[2026-05-06 21:26:53] Visit to RegisterForm.php | Method: GET
+[2026-05-06 21:27:27] Visit to RegisterForm.php | Method: POST
+[2026-05-06 21:27:27] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => elsanimani
+    [1] => elsa.n@gmail.com
+    [2] => HASHED_PWD
+    [3] => elsa 
+    [4] => nimani
+)
+
+[2026-05-06 21:28:00] Visit to RegisterForm.php | Method: GET
+[2026-05-06 21:28:31] Visit to login.php | Method: POST
+[2026-05-06 21:29:21] Visit to RegisterForm.php | Method: GET
+[2026-05-06 21:29:40] Visit to login.php | Method: POST
+[2026-05-06 21:30:00] Visit to RegisterForm.php | Method: GET
+[2026-05-06 21:31:16] Visit to RegisterForm.php | Method: POST
+[2026-05-06 21:31:16] Query: INSERT INTO users (username, email, password, name, surname) VALUES (?, ?, ?, ?, ?)
+Params: Array
+(
+    [0] => dina
+    [1] => db34@gmail.com
+    [2] => HASHED_PWD
+    [3] => dina
+    [4] => berisha
+)
+
+[2026-05-06 21:31:32] Visit to RegisterForm.php | Method: GET
+[2026-05-06 21:31:46] Visit to login.php | Method: POST
+[2026-05-06 21:34:58] Visit to login.php | Method: POST
+[2026-05-06 21:35:14] Visit to login.php | Method: POST
