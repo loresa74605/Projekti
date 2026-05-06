@@ -36,7 +36,7 @@ function loadFavorites() {
         }
 
         if (data.length === 0) {
-            list.innerHTML = "<li>Ende nuk ke favorite. Kthehu te Recipes dhe kliko zemrat.</li>";
+            list.innerHTML = "<li>You have not saved any favorite recipes yet.</li>";
             return;
         }
 
