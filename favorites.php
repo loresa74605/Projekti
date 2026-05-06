@@ -33,7 +33,6 @@ try {
         UNIQUE KEY unique_user_item (user_id, item_name)
     )");
 
-    // Keep compatibility with older table versions.
     $favoriteColumn = "item_name";
     $hasItemName = $conn->query("SHOW COLUMNS FROM favorites LIKE 'item_name'")->num_rows > 0;
     if (!$hasItemName) {

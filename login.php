@@ -2,7 +2,6 @@
 include "db.php";
 session_start();
 
-// LOG ALL VISITS
 file_put_contents('debug_log.txt', "[" . date('Y-m-d H:i:s') . "] Visit to login.php | Method: " . $_SERVER['REQUEST_METHOD'] . "\n", FILE_APPEND);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

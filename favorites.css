@@ -1,62 +1,70 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #333;
+    font-family: Arial;
+    background-color: #ffffff;
+    color: #222;
+    padding-bottom: 80px;
 }
 
 .nav {
+    padding: 6px 10px;
+    background: #ffd8d8;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 16px;
-    background: #f5d5dc;
 }
 
 .nav h2 {
-    margin: 0;
-    font-size: 30px;
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: 'Dancing Script';
 }
 
 .nav ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
-    gap: 18px;
+    gap: 15px;
 }
 
 .nav a {
+    color: black;
+    font-size: 14px;
+    padding-right: 5px;
     text-decoration: none;
-    color: #111;
-    font-size: 16px;
 }
 
 .favorites-page {
-    max-width: 800px;
-    margin: 40px auto 110px;
-    padding: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 24px 14px 100px;
+    box-sizing: border-box;
 }
 
 .favorites-card {
-    background: #fff;
-    border: 1px solid #f4c1d0;
-    border-radius: 16px;
-    padding: 22px;
+    width: 100%;
+    max-width: 760px;
+    background: white;
+    border: 1px solid #ff9baa;
+    border-radius: 12px;
+    padding: 18px;
+    box-sizing: border-box;
 }
 
 h1 {
-    margin: 0 0 10px;
+    margin: 0 0 8px;
     text-align: center;
-    color: #f28cab;
-    font-size: 38px;
+    color: #ff9baa;
+    font-size: 32px;
 }
 
 .subtitle {
-    margin: 0 0 18px;
+    margin: 0 0 14px;
     text-align: center;
-    color: #555;
-    font-size: 17px;
+    color: #444;
+    font-size: 16px;
 }
 
 .favorites-list {
@@ -69,9 +77,9 @@ h1 {
     margin-bottom: 12px;
     padding: 14px 16px;
     background: #ffffff;
-    border: 1px solid #f7bfd0;
-    border-radius: 12px;
-    font-size: 18px;
+    border: 1px solid #ffd8d8;
+    border-radius: 10px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,11 +87,11 @@ h1 {
 }
 
 .favorite-image {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     object-fit: cover;
     border-radius: 10px;
-    border: 1px solid #f7bfd0;
+    border: 1px solid #ffd8d8;
 }
 
 .favorite-content {
@@ -96,16 +104,16 @@ h1 {
 
 .remove-btn {
     border: none;
-    background: #f28cab;
+    background: #ff9baa;
     color: white;
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 7px 11px;
     cursor: pointer;
     font-size: 14px;
 }
 
 .remove-btn:hover {
-    background: #e6789a;
+    background: #ff7a92;
 }
 
 .bottom-nav {
@@ -113,16 +121,42 @@ h1 {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #f5d5dc;
+    min-height: 56px;
+    padding: 6px 0;
+    box-sizing: border-box;
+    background: #ffd8d8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 14px 0;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
 }
 
 .bottom-nav a {
-    color: #111;
-    font-size: 28px;
+    color: #222;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 12px;
+}
+
+.bottom-nav i {
+    font-size: 20px;
+    line-height: 1;
+    display: inline-block;
+    color: inherit;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
 }

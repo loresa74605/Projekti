@@ -1,19 +1,20 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #ffffff;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 /* Nav */
 .nav h2{
     color: black;
-    font-size: 18px;
-    padding-left: 10px;
+    font-size: 16px;
+    padding-left: 5px;
     font-family: 'Dancing Script', cursive;
 }
 .nav{
-    padding: 10px 20px;
+    padding: 6px 10px;
     background: #ffd8d8;
     color: black;
     display: flex;
@@ -39,7 +40,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 60px 20px;
+    padding: 24px 14px 90px;
     min-height: 80vh;
 }
 .contact-wrapper {
@@ -53,17 +54,17 @@ body {
 .contact-left {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 .contact-left h1 {
-    font-size: 50px;
+    font-size: 38px;
     color: #ff9baa;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .subtitle {
-    font-size: 18px;
+    font-size: 16px;
     color: #444;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* Card/Form */
@@ -83,11 +84,7 @@ body {
     border-radius: 12px;
     border: 2px solid #ff9baa;
     text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.contact-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    transition: box-shadow 0.2s ease;
 }
 .contact-card h3 {
     color: #ff9baa;
@@ -142,7 +139,7 @@ body {
 /* Responsive */
 @media(max-width: 768px){
     .contact-left h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
     .contact-card h3 {
         font-size: 22px;
@@ -150,7 +147,7 @@ body {
 }
 @media(max-width: 480px){
     .contact-left h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .subtitle {
         font-size: 16px;
